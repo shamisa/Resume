@@ -9,16 +9,51 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 
 /* My Page Styles */
 
+
 body {
   background-color: orange;
   color: blue;
-  font-size: medium;
-}
+  font-size: 12pt;
+} 
 
-h1 { 
+h1 {
   text-align: center;
+} 
+#contact {text-align: center
+ 
+} 
+#contact li { 
+list-style-type:none; 
 }
 
-p { color: blue; }
+ h2 {text-align: center 
+    }
+ 
+#skills li {text-align: center;
+list-style-type:none; }
+
+h3 {text-align: left
+    }
+
+  
+	
+#education li { 
+list-style-type:none;  
+text-align:left; 
+Font-Size: Medium;}
+
+#experience li { 
+list-style-type:none;  
+text-align:left; 
+Font-Size: Medium;} 
+
+ 
+
+#details li { 
+text-align:left; 
+Font-Size: Medium;} 
+	
+
 
 div {color: white;}
+

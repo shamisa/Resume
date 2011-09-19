@@ -11,50 +11,55 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 
 
 body {
-  background-color: #FFD700;
-  color: blue;
-  font-size: medium;
+	background-color: #FFD700;
+	color: blue;
+	font-size: 12pt;
 } 
 
-h1 {
-  text-align: center;
-} 
-#contact {text-align: center
+h1 {	
+	text-align: center;
+	border-bottom: 3px solid red; 
+  }
  
-} 
-#contact li { 
-list-style-type:none; 
+#contact li{
+	text-align: center
 }
 
- h2 {text-align: center 
-    }
+#contact li{
+	list-style-type: none
+}  
+
+h2 {
+	text-align: center
+} 
  
-#skills li {text-align: center;
-list-style-type:none; }
+.skills li {text-align: center;
+list-style-type:none;
+}
 
-h3 {text-align: left
-    }
-
+h3 {text-align: left}
 	
-	
-#education li { 
+.education li { 
 list-style-type:none;  
 text-align:left; 
-Font-Size: Medium;}
+Font-Size: Medium;
+}
 
-#experience li { 
+.experience li { 
 list-style-type:none;  
 text-align:left; 
-Font-Size: Medium;} 
+Font-Size: Medium;
+} 
 
- 
-
-#details li { 
+.details li { 
 text-align:left; 
-Font-Size: Medium;} 
+Font-Size: Medium;
+} 
 	
-
-
-div {color: white;}
+p{
+margin-bottom:20px;
+margin: 20px;
+margin:20px
+}
 
 

@@ -9,48 +9,53 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 /* My Page Styles */
 
 body {
-  background-color: white;
-  color: black;
-  font-size: 12pt;
+	background-color: white;
+	color: black;
+	font-size: 12pt;
 } 
 
-h1 {
-  text-align: center;
-  font-weight: bold;
- }
-  
+h1 {	
+	text-align: center;
+	border-bottom: 3px solid black;
+	margin-left: 20px;
+	font-size: medium;
+	font-weight: bold;
+  }
+ 
 #contact li{text-align: center}
-  
-#contact li { 
-list-style-type:none; 
-}
 
-h2 {text-align: center} 
+.skills li {text-align: center}
+
+h2{
+	text-align: center;
+	margin-left: 20px;
+	font-size: medium;
+	font-weight: bold;
+} 
  
- 
-.skills li {text-align: center;
-list-style-type:none;
+h3 {
+	text-align: left;
+	margin-left: 20px;
+	font-size: medium;
+	font-weight: bold;
 }
-
-h3 {text-align: left}
-	
-.education li { 
-list-style-type:none;  
-text-align:left; 
-Font-Size: Medium;}
-
-.experience li { 
-list-style-type:none;  
-text-align:left; 
-Font-Size: Medium;} 
 
 .details li { 
-text-align:left; 
-Font-Size: Medium;
+	text-align:left; 
+	list-style-type: disc;
+	margin-left: 20px
 } 
 
+ul {
+	margin-bottom:20px;
+	margin-top: 20px;
+	margin-left: 20px;
+}	
+
 p{
-margin-bottom:20px;
-margin:20px
+	margin-bottom:20px;
+	margin-top: 20px;
+	margin-left:20px;
 }
 
+strong {font-weight: bold}

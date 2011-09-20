@@ -4,7 +4,7 @@ Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
 version: 2.9.0
 */
-html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,select,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,button,caption,cite,code,dfn,em,input,optgroup,option,select,strong,textarea,th,var{font:inherit}del,ins{text-decoration:none}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:baseline}sub{vertical-align:baseline}legend{color:#000}
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,select,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,button,caption,cite,code,dfn,em,input,optgroup,option,select,strong,textarea,th,var{font:inherit}del,ins{text-decoration:none}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:baseline}sub{vertical-align:baseline}legend{color:#000}
 
 /* My Page Style */
 
@@ -12,55 +12,53 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 body {
 	background-color: #FFD700;
 	color: blue;
-	font-size: 12pt;
+	font-size: medium;
 } 
 
 h1 {	
 	text-align: center;
-	border-bottom: 3px solid red; 
+	border-bottom: 3px solid black;
+	margin-left: 20px;
+	font-size: Large;
+	font-weight: bold;
   }
  
-#contact li{
-	text-align: center
-}
+#contact li{text-align: center}
 
-#contact li{
-	list-style-type: none
-}  
+.skills li {text-align: center}
 
-h2 {
-	text-align: center
+h2{
+	text-align: center;
+   margin-left: 20px;
+   font-size: Large;
+   font-weight: bold;
 } 
  
-.skills li {text-align: center;
-list-style-type:none;
+h3 {
+	text-align: left;
+	margin-left: 20px;
+	font-size: Large;
+	font-weight: bold;
 }
-
-h3 {text-align: left}
-	
-.education li { 
-list-style-type:none;  
-text-align:left; 
-Font-Size: Medium;
-}
-
-.experience li { 
-list-style-type:none;  
-text-align:left; 
-Font-Size: Medium;
-} 
 
 .details li { 
-text-align:left; 
-Font-Size: Medium;
+	text-align:left; 
+	list-style-type: disc;
+	margin-left: 20px
 } 
-	
+
+ul {
+	margin-bottom:20px;
+	margin-top: 20px;
+	margin-left: 20px;
+}	
+
 p{
-margin-bottom:20px;
-margin: 20px;
-margin:20px
+	margin-bottom:20px;
+	margin-top: 20px;
+	margin-left:20px;
 }
 
-
+strong {font-weight: bold}
 
 	 
